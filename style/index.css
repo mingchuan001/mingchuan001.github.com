@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-weight: normal;
+  box-sizing: border-box; }
+
+html, body, #box {
+  width: 100%;
+  height: 100%; }
+
+img {
+  display: block; }
+
+#box {
+  display: flex;
+  flex-direction: column; }
+
+section {
+  flex: 1;
+  overflow: scroll; }
+
+header {
+  height: 66px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 17px 0 23px; }
+  header a {
+    flex: 1; }
+    header a:nth-child(3) {
+      display: flex;
+      justify-content: flex-end; }
+  header span {
+    flex: 1;
+    text-align: center;
+    font-size: 20px; }
+
+.swiper-container {
+  width: 480px;
+  height: 210px; }
+
+.swiper-container1 {
+  width: 480px;
+  overflow: hidden;
+  margin-bottom: 18px; }
+  .swiper-container1 .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .swiper-container1 .swiper-slide p {
+      padding: 20px 0; }
+
+.title {
+  width: 100%; }
+  .title h2 {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px; }
+    .title h2 a {
+      color: #46423f; }
+
+.listAll {
+  padding: 0 16px; }
+  .listAll h3 {
+    height: 62px;
+    line-height: 62px; }
+  .listAll .listBox {
+    width: 100%; }
+    .listAll .listBox .list {
+      display: flex;
+      width: 100%;
+      margin-bottom: 15px; }
+      .listAll .listBox .list .lt {
+        width: 192px;
+        margin-right: 20px; }
+      .listAll .listBox .list .gt {
+        flex: 1;
+        padding: 20px 0 26px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .listAll .listBox .list .gt h2 {
+          width: 220px;
+          font-size: 22px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis; }
+        .listAll .listBox .list .gt p span {
+          color: #4aa9f5;
+          border: 2px solid #4aa9f5;
+          padding: 0 5px; }
+
+footer {
+  height: 62px;
+  border-top: 2px solid #f5f5f5;
+  padding: 8px 0; }
+  footer ul {
+    display: flex; }
+    footer ul li {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+
+/*# sourceMappingURL=index.css.map */
